@@ -102,8 +102,8 @@ var dynamicHTML = {
 		parentElement[n].appendChild(element);
 		parentElement[n].appendChild(document.createTextNode(title));
 	},
-	isInteger: function(n){
-  		return !isNaN(parseInt(n)) && isFinite(n);
+	isInteger: function(n) {
+  		return !isNaN( parseInt(n) ) && isFinite(n);
 	}
 };
 
